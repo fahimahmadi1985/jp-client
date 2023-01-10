@@ -52,7 +52,7 @@ function LoginForm() {
                         {/*<!-- Email input --> */}
                         <div className="form-outline mb-4">
                             <input type="email" id="loginName" name="email" className="form-control" onChange={changeHandler}
-                                pattern=""/>
+                            />
                             <label className="form-label" htmlFor="loginName">Email</label>
                         </div>
                         {/*<!-- Password input --> */}
